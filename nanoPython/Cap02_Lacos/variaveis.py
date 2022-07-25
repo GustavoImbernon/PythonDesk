@@ -1,0 +1,7 @@
+nome = input("Insira o nome do fucionário: ")
+empresa = input("Insira o nome da empresa: ")
+qtde_funcionarios = int(input("Insira a quantidade de funcionários: "))
+mensalidade = float(input("Insira o valor da mensalidade: "))
+print(f"{nome} trabalha na empresa {empresa}.")
+print(f"Possui: {qtde_funcionarios} funcionários.")
+print(f"Possui mensalidade no valor de R${mensalidade:.2f}")
